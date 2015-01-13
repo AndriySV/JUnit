@@ -30,14 +30,11 @@ public class TestSaveUser {
 	
 	@Test
 	public void testMockitoSaveUser() {
-		User user1 = new User();
-		
 		User user = mock(User.class);
 		
-		when(user.getId()).thenReturn(5);
-		when(user.getName()).thenReturn("User5");
+		when(user.getName()).thenReturn("User1");
 		
-		userDao.saveUser(user1);
+		assertEquals(user.getName(), userDao.findById(1).getName());
 	}
 	
 }
