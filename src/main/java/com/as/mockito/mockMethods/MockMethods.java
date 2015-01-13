@@ -1,4 +1,4 @@
-package com.as.mockhito.mockMethods;
+package com.as.mockito.mockMethods;
 
 import java.io.IOException;
 import java.util.LinkedList;

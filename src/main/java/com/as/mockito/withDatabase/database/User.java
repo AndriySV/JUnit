@@ -1,4 +1,4 @@
-package com.as.mockhito.withDatabase.database;
+package com.as.mockito.withDatabase.database;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

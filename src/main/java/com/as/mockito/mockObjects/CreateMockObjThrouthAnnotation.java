@@ -1,4 +1,4 @@
-package com.as.mockhito.mockObjects;
+package com.as.mockito.mockObjects;
 
 import org.junit.Assert;
 import org.junit.Test;

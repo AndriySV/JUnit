@@ -1,4 +1,4 @@
-package com.as.mockhito.mockObjects;
+package com.as.mockito.mockObjects;
 
 public class User {
 

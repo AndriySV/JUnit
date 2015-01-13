@@ -1,12 +1,13 @@
-package com.as.mockhito.withDatabase.tests;
+package com.as.mockito.withDatabase.tests;
 
 import static org.mockito.Mockito.*;
 
 import org.testng.annotations.Test;
 
 
-import com.as.mockhito.withDatabase.database.User;
-import com.as.mockhito.withDatabase.database.UserDao;
+
+import com.as.mockito.withDatabase.database.User;
+import com.as.mockito.withDatabase.database.UserDao;
 
 import static org.testng.Assert.*;
 

@@ -1,4 +1,4 @@
-package com.as.mockhito.withDatabase.database;
+package com.as.mockito.withDatabase.database;
 
 import org.hibernate.Session;
 
