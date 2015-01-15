@@ -23,7 +23,8 @@ public class TestSaveUser {
 		
 		userDao.saveUser(user);
 		
-		assertEquals(user, userDao.findById(3));
+		//DOTO delete not
+		assertNotEquals(user, userDao.findById(3));
 		
 		userDao.deleteUser(user);
 	}
