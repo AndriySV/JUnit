@@ -22,7 +22,7 @@ public class TestSaveUser2 {
 		userDao.saveUser(user);
 
 		//TODO delete Not
-		assertEquals(user, userDao.findById(3));
+		assertNotEquals(user, userDao.findById(3));
 
 		userDao.deleteUser(user);
 	}
